@@ -1,0 +1,38 @@
+### Name: ELRepo.org Community Enterprise Linux Repository for el8
+### URL: https://elrepo.org/
+
+[elrepo]
+name=ELRepo.org Community Enterprise Linux Repository - el8
+baseurl=http://mirror.rackspace.com/elrepo/kernel/el8/$basearch/
+# mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
+enabled=1
+countme=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org file:///etc/pki/rpm-gpg/RPM-GPG-KEY-v2-elrepo.org
+
+[elrepo-testing]
+name=ELRepo.org Community Enterprise Linux Testing Repository - el8
+baseurl=http://mirror.rackspace.com/elrepo/kernel/el8/$basearch/
+# mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
+enabled=0
+countme=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org file:///etc/pki/rpm-gpg/RPM-GPG-KEY-v2-elrepo.org
+
+[elrepo-kernel]
+name=ELRepo.org Community Enterprise Linux Kernel Repository - el8
+baseurl=http://mirror.rackspace.com/elrepo/kernel/el8/$basearch/
+# mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
+enabled=0
+countme=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org file:///etc/pki/rpm-gpg/RPM-GPG-KEY-v2-elrepo.org
+
+[elrepo-extras]
+name=ELRepo.org Community Enterprise Linux Extras Repository - el8
+baseurl=http://mirror.rackspace.com/elrepo/kernel/el8/$basearch/
+# mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
+enabled=0
+countme=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org file:///etc/pki/rpm-gpg/RPM-GPG-KEY-v2-elrepo.org
