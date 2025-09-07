@@ -1,0 +1,16 @@
+原始文件的链接国内无法ping通
+```
+baseurl=http://elrepo.org/linux/elrepo/el8/$basearch/
+	http://mirrors.coreix.net/elrepo/elrepo/el8/$basearch/
+	http://mirror.rackspace.com/elrepo/elrepo/el8/$basearch/
+	http://linux-mirrors.fnal.gov/linux/elrepo/elrepo/el8/$basearch/
+mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
+```
+注释掉mirrorlist，baseur仅留一个
+```
+baseurl=http://elrepo.org/linux/elrepo/el8/$basearch/
+	http://mirrors.coreix.net/elrepo/elrepo/el8/$basearch/
+	http://mirror.rackspace.com/elrepo/elrepo/el8/$basearch/
+	http://linux-mirrors.fnal.gov/linux/elrepo/elrepo/el8/$basearch/
+```
+问题解决
