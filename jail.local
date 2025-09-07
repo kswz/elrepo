@@ -198,7 +198,7 @@ port = 0:65535
 # Format of user-agent https://tools.ietf.org/html/rfc7231#section-5.5.3
 fail2ban_agent = Fail2Ban/%(fail2ban_version)s
 
-#
+# 
 # Action shortcuts. To be used to define action parameter
 
 # Default banning action (e.g. iptables, iptables-new,
