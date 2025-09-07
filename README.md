@@ -1,10 +1,10 @@
-#jail.local是faile2ban的配置文件
+jail.local是faile2ban的配置文件
 开启了8个模块。
 dovecot, nginx-botsearch, nginx-http-auth, nginx-limit-req, postfix, postfix-sasl, recidive, sshd
 
 
 
-# dnf -y --enablerepo=elrepo-kernel install kernel-lt
+dnf -y --enablerepo=elrepo-kernel install kernel-lt
 一直卡滞在
 ELRepo.org Community Enterprise Linux Repository - el8
 
