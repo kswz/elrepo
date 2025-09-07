@@ -1,5 +1,6 @@
 jail.local是faile2ban的配置文件
 开启了8个模块。
+
 dovecot, nginx-botsearch, nginx-http-auth, nginx-limit-req, postfix, postfix-sasl, recidive, sshd
 
 
